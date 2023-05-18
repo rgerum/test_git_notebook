@@ -11,4 +11,4 @@ def test_average_shift():
     values = np.random.rand(5)
     
     mean = calculate_average(values)
-    assert calculate_average(values+5) == (mean + 6)
+    assert calculate_average(values+5) == (mean + 5)
